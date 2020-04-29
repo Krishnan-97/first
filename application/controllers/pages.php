@@ -5,6 +5,7 @@ class Pages extends CI_Controller{
 		$this->load->database();
 		$this->load->helper('url');
 		$this->load->model('insert_model');
+		//testing
 	}
 	public function view($page = 'page_1'){
 		if(!file_exists(APPPATH.'views/pages/'.$page.'.php')){
